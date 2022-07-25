@@ -1,4 +1,4 @@
-# LXC Container for Skywater PDK
+# Skywater PDK Install
 
 I have created a script that will automatically create, install, and configure an lxc container for the skywater pdk and tools.
 This container will attach to the native xserver to run the gui apps like they were installed natively.

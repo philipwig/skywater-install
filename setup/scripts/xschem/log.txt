@@ -1,0 +1,301 @@
+Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+bison is already the newest version (2:3.5.1+dfsg-1).
+flex is already the newest version (2.6.4-6.2).
+gawk is already the newest version (1:5.0.1+dfsg-1).
+gawk set to manually installed.
+libcairo2 is already the newest version (1.16.0-4ubuntu1).
+libcairo2 set to manually installed.
+libcairo2-dev is already the newest version (1.16.0-4ubuntu1).
+libxcb1 is already the newest version (1.14-2).
+libxcb1 set to manually installed.
+libxpm-dev is already the newest version (1:3.5.12-1).
+libxpm-dev set to manually installed.
+libxpm4 is already the newest version (1:3.5.12-1).
+libxpm4 set to manually installed.
+libxrender-dev is already the newest version (1:0.9.10-1).
+libxrender-dev set to manually installed.
+libxrender1 is already the newest version (1:0.9.10-1).
+libxrender1 set to manually installed.
+tcl is already the newest version (8.6.9+1).
+tcl-dev is already the newest version (8.6.9+1).
+tk is already the newest version (8.6.9+1).
+tk-dev is already the newest version (8.6.9+1).
+libx11-6 is already the newest version (2:1.6.9-2ubuntu1.2).
+libx11-dev is already the newest version (2:1.6.9-2ubuntu1.2).
+The following NEW packages will be installed:
+  libx11-xcb-dev
+0 upgraded, 1 newly installed, 0 to remove and 8 not upgraded.
+Need to get 9800 B of archives.
+After this operation, 82.9 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-xcb-dev amd64 2:1.6.9-2ubuntu1.2 [9800 B]
+Fetched 9800 B in 0s (82.7 kB/s)
+Selecting previously unselected package libx11-xcb-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43050 files and directories currently installed.)
+Preparing to unpack .../libx11-xcb-dev_2%3a1.6.9-2ubuntu1.2_amd64.deb ...
+Unpacking libx11-xcb-dev:amd64 (2:1.6.9-2ubuntu1.2) ...
+Setting up libx11-xcb-dev:amd64 (2:1.6.9-2ubuntu1.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default   -c -o hooks.o hooks.c
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_cc.c -o src//default/find_cc.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/lib_compile.c -o src//default/lib_compile.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/lib_uniqinc.c -o src//default/lib_uniqinc.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/lib_file.c -o src//default/lib_file.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/lib_try.c -o src//default/lib_try.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/str.c -o src//default/str.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/ht.c -o src//default/ht.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/log.c -o src//default/log.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/arg.c -o src//default/arg.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/db.c -o src//default/db.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/dep.c -o src//default/dep.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/deps_default.c -o src//default/deps_default.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_libs.c -o src//default/find_libs.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_fscalls.c -o src//default/find_fscalls.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_printf.c -o src//default/find_printf.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_proc.c -o src//default/find_proc.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_fstools.c -o src//default/find_fstools.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_uname.c -o src//default/find_uname.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_target.c -o src//default/find_target.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_thread.c -o src//default/find_thread.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_io.c -o src//default/find_io.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_time.c -o src//default/find_time.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_types.c -o src//default/find_types.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_signal.c -o src//default/find_signal.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_environ.c -o src//default/find_environ.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/regex.c -o src//default/regex.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/lib_filelist.c -o src//default/lib_filelist.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/lib_srctree.c -o src//default/lib_srctree.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/lib_pkg_config.c -o src//default/lib_pkg_config.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_str.c -o src//default/find_str.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/find_sys.c -o src//default/find_sys.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/scripts.c -o src//scripts/scripts.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_gpmi.c -o src//scripts/find_gpmi.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_tcl.c -o src//scripts/find_tcl.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_ruby.c -o src//scripts/find_ruby.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_mruby.c -o src//scripts/find_mruby.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_python.c -o src//scripts/find_python.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_perl.c -o src//scripts/find_perl.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_mawk.c -o src//scripts/find_mawk.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_lua.c -o src//scripts/find_lua.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_guile.c -o src//scripts/find_guile.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_stutter.c -o src//scripts/find_stutter.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_funlisp.c -o src//scripts/find_funlisp.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_duktape.c -o src//scripts/find_duktape.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_mujs.c -o src//scripts/find_mujs.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_fungw.c -o src//scripts/find_fungw.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_m4.c -o src//scripts/find_m4.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_welltype.c -o src//scripts/find_welltype.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//scripts/find_picol.c -o src//scripts/find_picol.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//tmpasm/tmpasm.c -o src//tmpasm/tmpasm.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//tmpasm/tmpasm_scconfig.c -o src//tmpasm/tmpasm_scconfig.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//tmpasm/openfiles.c -o src//tmpasm/openfiles.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//parsgen/find_parsgen.c -o src//parsgen/find_parsgen.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_gtk2.c -o src//gui/find_gtk2.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_gtk3.c -o src//gui/find_gtk3.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_gtk4.c -o src//gui/find_gtk4.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_lesstif2.c -o src//gui/find_lesstif2.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_x.c -o src//gui/find_x.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_gd.c -o src//gui/find_gd.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_cairo.c -o src//gui/find_cairo.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_misc.c -o src//gui/find_misc.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/find_gl.c -o src//gui/find_gl.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//gui/gui.c -o src//gui/gui.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/main.c -o src//default/main.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/main_custom_args.c -o src//default/main_custom_args.o
+cc -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -c src//default/main_lib.c -o src//default/main_lib.o
+cc -o configure  hooks.o src//default/find_cc.o src//default/lib_compile.o src//default/lib_uniqinc.o src//default/lib_file.o src//default/lib_try.o src//default/str.o src//default/ht.o src//default/log.o src//default/arg.o src//default/db.o src//default/dep.o src//default/deps_default.o src//default/find_libs.o src//default/find_fscalls.o src//default/find_printf.o src//default/find_proc.o src//default/find_fstools.o src//default/find_uname.o src//default/find_target.o src//default/find_thread.o src//default/find_io.o src//default/find_time.o src//default/find_types.o src//default/find_signal.o src//default/find_environ.o src//default/regex.o src//default/lib_filelist.o src//default/lib_srctree.o src//default/lib_pkg_config.o src//default/find_str.o src//default/find_sys.o src//scripts/scripts.o src//scripts/find_gpmi.o src//scripts/find_tcl.o src//scripts/find_ruby.o src//scripts/find_mruby.o src//scripts/find_python.o src//scripts/find_perl.o src//scripts/find_mawk.o src//scripts/find_lua.o src//scripts/find_guile.o src//scripts/find_stutter.o src//scripts/find_funlisp.o src//scripts/find_duktape.o src//scripts/find_mujs.o src//scripts/find_fungw.o src//scripts/find_m4.o src//scripts/find_welltype.o src//scripts/find_picol.o   src//tmpasm/tmpasm.o src//tmpasm/tmpasm_scconfig.o src//tmpasm/openfiles.o  src//parsgen/find_parsgen.o    src//gui/find_gtk2.o src//gui/find_gtk3.o src//gui/find_gtk4.o src//gui/find_lesstif2.o src//gui/find_x.o src//gui/find_gd.o src//gui/find_cairo.o src//gui/find_misc.o src//gui/find_gl.o src//gui/gui.o    src//default/main.o src//default/main_custom_args.o src//default/main_lib.o
+cc -c -DGENCALL -DRUNTIME -g  -DPLUGIN_SCRIPTS   -Isrc//tmpasm  -DPLUGIN_PARSGEN    -DPLUGIN_GUI     -Isrc//default -o src/util/sccbox.o src/util/sccbox.c
+cc                 -o sccbox src/util/sccbox.o
+--- Detecting host
+Looking for a shell... /bin/sh -c
+Looking for a shell escape character... found: '\'
+Detecting temp dir... validated /home/philip/tools/xschem/scconfig/
+Checking for system type... OK (name: Linux; class: UNIX)
+--- Detecting target (same as host)
+Checking for cc (target)... OK ('gcc', ' -pipe', '')
+Checking for -fpic... OK (-fPIC)
+Checking for popen(3)... OK ('#define _XOPEN_SOURCE\n', '' and '')
+Checking for dup2(2)... OK ('', '' and '')
+Checking for flex... Found.
+Checking for bison... Found.
+Checking for XOpenDisplay... OK ('', '' and '-lX11')
+Checking for tk... 8.6... OK ('', '-I/usr/include/tcl8.6' and '-ltcl8.6')
+OK ('', '-I/usr/include/tcl8.6 ' and '-ltcl8.6  -ltk8.6')
+Checking for awk... OK (awk)
+Checking for xpm... OK ('', '' and '-lX11 -lXpm')
+Checking for cairo... OK ('', '-I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16' and '-lcairo')
+--- Detecting runtime (same as host)
+
+--- Generating build and config files
+config.h:              ok
+Makefile.conf:         ok
+doc/manpages/xschem.1: ok
+src/Makefile:          ok
+
+
+=====================
+Configuration summary
+=====================
+
+Compilation:
+ CC:        gcc
+ debug:     no
+ profiling: no
+
+Paths:
+ prefix:        /usr/local
+ user-conf-dir: ~/.xschem
+ user-lib-path: ~/.xschem/xschem_library
+ sys-lib-path:  /usr/local/share/xschem/xschem_library/devices
+
+Libs & features:
+ tcl:       -ltcl8.6
+ tk:        -ltcl8.6  -ltk8.6
+ cairo:     yes
+
+Configuration complete, ready to compile.
+
+cd src && make
+make[1]: Entering directory '/home/philip/tools/xschem/src'
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o icon.o icon.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o callback.o callback.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o actions.o actions.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o move.o move.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o check.o check.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o clip.o clip.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o draw.o draw.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o globals.o globals.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o main.o main.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o netlist.o netlist.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o hash_iterator.o hash_iterator.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o findnet.o findnet.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o scheduler.o scheduler.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o store.o store.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o xinit.o xinit.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o select.o select.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o font.o font.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o editprop.o editprop.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o save.o save.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o paste.o paste.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o token.o token.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o psprint.o psprint.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o node_hash.o node_hash.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o hilight.o hilight.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o options.o options.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o vhdl_netlist.o vhdl_netlist.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o svgdraw.o svgdraw.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o spice_netlist.o spice_netlist.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o tedax_netlist.o tedax_netlist.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o verilog_netlist.o verilog_netlist.c
+bison -d -o expandlabel.c  expandlabel.y
+bison -d -o expandlabel.c  expandlabel.y
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o in_memory_undo.o in_memory_undo.c
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o rawtovcd.o rawtovcd.c
+flex -l -oparselabel.c  parselabel.l
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o expandlabel.o expandlabel.c
+gcc -o  rawtovcd rawtovcd.o -lm
+gcc -c -pipe -O2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/tcl8.6  -o parselabel.o parselabel.c
+gcc -o xschem icon.o callback.o actions.o move.o check.o clip.o draw.o globals.o  main.o netlist.o hash_iterator.o findnet.o scheduler.o store.o xinit.o  select.o font.o editprop.o save.o paste.o token.o psprint.o node_hash.o  hilight.o options.o vhdl_netlist.o svgdraw.o spice_netlist.o  tedax_netlist.o verilog_netlist.o parselabel.o expandlabel.o  in_memory_undo.o   -lm -lcairo -lX11 -lXpm -ltcl8.6 -ltk8.6 
+make[1]: Leaving directory '/home/philip/tools/xschem/src'
+cd xschem_library && make
+make[1]: Entering directory '/home/philip/tools/xschem/xschem_library'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/philip/tools/xschem/xschem_library'
+cd doc && make
+make[1]: Entering directory '/home/philip/tools/xschem/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/philip/tools/xschem/doc'
+cd src/utile && make
+make[1]: Entering directory '/home/philip/tools/xschem/src/utile'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/philip/tools/xschem/src/utile'
+cd src && make install
+make[1]: Entering directory '/home/philip/tools/xschem/src'
+../scconfig/sccbox mkdir -p "/usr/local/bin"
+../scconfig/sccbox mkdir -p "/usr/local/share/xschem"
+../scconfig/sccbox install -f xschem "/usr/local/bin"/xschem
+../scconfig/sccbox install -f rawtovcd "/usr/local/bin"/rawtovcd
+../scconfig/sccbox install -f -d systemlib/* "/usr/local/share/xschem"/systemlib 
+../scconfig/sccbox install -f keys.help  "/usr/local/share/xschem"/keys.help 
+../scconfig/sccbox install -f xschem.help  "/usr/local/share/xschem"/xschem.help 
+../scconfig/sccbox install -f xschem.tcl  "/usr/local/share/xschem"/xschem.tcl 
+../scconfig/sccbox install -f break.awk  "/usr/local/share/xschem"/break.awk 
+../scconfig/sccbox install -f convert_to_verilog2001.awk  "/usr/local/share/xschem"/convert_to_verilog2001.awk 
+../scconfig/sccbox install -f flatten.awk  "/usr/local/share/xschem"/flatten.awk 
+../scconfig/sccbox install -f flatten_tedax.awk  "/usr/local/share/xschem"/flatten_tedax.awk 
+../scconfig/sccbox install -f flatten_savenodes.awk  "/usr/local/share/xschem"/flatten_savenodes.awk 
+../scconfig/sccbox install -f make_sym.awk  "/usr/local/share/xschem"/make_sym.awk 
+../scconfig/sccbox install -f make_sym_lcc.awk  "/usr/local/share/xschem"/make_sym_lcc.awk 
+../scconfig/sccbox install -f symgen.awk  "/usr/local/share/xschem"/symgen.awk 
+../scconfig/sccbox install -f order_labels.awk  "/usr/local/share/xschem"/order_labels.awk 
+../scconfig/sccbox install -f sort_labels.awk  "/usr/local/share/xschem"/sort_labels.awk 
+../scconfig/sccbox install -f spice.awk  "/usr/local/share/xschem"/spice.awk 
+../scconfig/sccbox install -f tedax.awk  "/usr/local/share/xschem"/tedax.awk 
+../scconfig/sccbox install -f verilog.awk  "/usr/local/share/xschem"/verilog.awk 
+../scconfig/sccbox install -f vhdl.awk  "/usr/local/share/xschem"/vhdl.awk 
+../scconfig/sccbox install -f hspice_backannotate.tcl  "/usr/local/share/xschem"/hspice_backannotate.tcl 
+../scconfig/sccbox install -f add_custom_menu.tcl  "/usr/local/share/xschem"/add_custom_menu.tcl 
+../scconfig/sccbox install -f change_index.tcl  "/usr/local/share/xschem"/change_index.tcl 
+../scconfig/sccbox install -f resources.tcl  "/usr/local/share/xschem"/resources.tcl 
+../scconfig/sccbox install -f xschemrc  "/usr/local/share/xschem"/xschemrc 
+../scconfig/sccbox install -f ngspice_backannotate.tcl  "/usr/local/share/xschem"/ngspice_backannotate.tcl 
+../scconfig/sccbox install -f rawtovcd  "/usr/local/share/xschem"/rawtovcd 
+../scconfig/sccbox install -f gschemtoxschem.awk  "/usr/local/share/xschem"/gschemtoxschem.awk 
+make[1]: Leaving directory '/home/philip/tools/xschem/src'
+cd xschem_library && make install
+make[1]: Entering directory '/home/philip/tools/xschem/xschem_library'
+../scconfig/sccbox mkdir -p "/usr/local/share/xschem/xschem_library/devices" "/usr/local/share/doc/xschem"/examples "/usr/local/share/doc/xschem"/pcb
+../scconfig/sccbox mkdir -p "/usr/local/share/doc/xschem"/logic "/usr/local/share/doc/xschem"/xTAG "/usr/local/share/doc/xschem"/binto7seg 
+../scconfig/sccbox mkdir -p "/usr/local/share/doc/xschem"/symgen "/usr/local/share/doc/xschem"/ngspice "/usr/local/share/doc/xschem"/rulz-r8c33
+../scconfig/sccbox mkdir -p "/usr/local/share/doc/xschem"/rom8k "/usr/local/share/doc/xschem"/gschem_import/sym
+../scconfig/sccbox install -f -d devices/*.sym "/usr/local/share/xschem/xschem_library/devices"
+../scconfig/sccbox install -f -d devices/*.sch "/usr/local/share/xschem/xschem_library/devices"
+../scconfig/sccbox install -f -d examples/*.sym "/usr/local/share/doc/xschem"/examples
+../scconfig/sccbox install -f -d examples/*.sch "/usr/local/share/doc/xschem"/examples
+../scconfig/sccbox install -f -d examples/stimuli.* "/usr/local/share/doc/xschem"/examples
+../scconfig/sccbox install -f -d binto7seg/*.sym "/usr/local/share/doc/xschem"/binto7seg
+../scconfig/sccbox install -f -d binto7seg/*.sch "/usr/local/share/doc/xschem"/binto7seg
+../scconfig/sccbox install -f -d xTAG/*.sym* "/usr/local/share/doc/xschem"/xTAG
+../scconfig/sccbox install -f -d xTAG/*.sch "/usr/local/share/doc/xschem"/xTAG
+../scconfig/sccbox install -f -d logic/*.sym "/usr/local/share/doc/xschem"/logic
+../scconfig/sccbox install -f -d logic/*.sch "/usr/local/share/doc/xschem"/logic
+../scconfig/sccbox install -f -d logic/stimuli.* "/usr/local/share/doc/xschem"/logic
+../scconfig/sccbox install -f -d rulz-r8c33/*.sch "/usr/local/share/doc/xschem"/rulz-r8c33
+../scconfig/sccbox install -f -d rulz-r8c33/*.sym* "/usr/local/share/doc/xschem"/rulz-r8c33
+../scconfig/sccbox install -f -d pcb/*.sch "/usr/local/share/doc/xschem"/pcb
+../scconfig/sccbox install -f -d pcb/*.sym "/usr/local/share/doc/xschem"/pcb
+../scconfig/sccbox install -f -d ngspice/*.sym "/usr/local/share/doc/xschem"/ngspice
+../scconfig/sccbox install -f -d ngspice/*.sch "/usr/local/share/doc/xschem"/ngspice
+../scconfig/sccbox install -f -d ngspice/stimuli.* "/usr/local/share/doc/xschem"/ngspice
+../scconfig/sccbox install -f -d rom8k/*.sym "/usr/local/share/doc/xschem"/rom8k
+../scconfig/sccbox install -f -d rom8k/*.sch "/usr/local/share/doc/xschem"/rom8k
+../scconfig/sccbox install -f -d xschem_simulator/*.sym "/usr/local/share/doc/xschem"/xschem_simulator
+../scconfig/sccbox install -f -d xschem_simulator/*.sch "/usr/local/share/doc/xschem"/xschem_simulator
+../scconfig/sccbox install -f -d rom8k/stimuli.* "/usr/local/share/doc/xschem"/rom8k
+../scconfig/sccbox install -f -d symgen/*.sym* "/usr/local/share/doc/xschem"/symgen
+../scconfig/sccbox install -f -d gschem_import/*.sym "/usr/local/share/doc/xschem"/gschem_import
+../scconfig/sccbox install -f -d gschem_import/*.sch "/usr/local/share/doc/xschem"/gschem_import
+../scconfig/sccbox install -f -d gschem_import/sym/*.sym "/usr/local/share/doc/xschem"/gschem_import/sym
+make[1]: Leaving directory '/home/philip/tools/xschem/xschem_library'
+cd doc && make install
+make[1]: Entering directory '/home/philip/tools/xschem/doc'
+../scconfig/sccbox mkdir -p "/usr/local/share/doc/xschem" "/usr/local/share/doc/xschem"/xschem_man "/usr/local/share/man"/man1
+../scconfig/sccbox install -f -d *.svg *.html *.css *.png "/usr/local/share/doc/xschem"
+../scconfig/sccbox install -f -d xschem_man/*.html xschem_man/*.css xschem_man/*.png "/usr/local/share/doc/xschem"/xschem_man
+../scconfig/sccbox install -f manpages/xschem.1 "/usr/local/share/man"/man1/xschem.1
+make[1]: Leaving directory '/home/philip/tools/xschem/doc'
+cd src/utile && make install
+make[1]: Entering directory '/home/philip/tools/xschem/src/utile'
+../../scconfig/sccbox mkdir -p "/usr/local/share/xschem/utile"
+../../scconfig/sccbox install -f -d * "/usr/local/share/xschem/utile"
+../../scconfig/sccbox rm "/usr/local/share/xschem/utile/Makefile"
+make[1]: Leaving directory '/home/philip/tools/xschem/src/utile'
+
+File Created: 2022-07-22T04:02:36.375754
+Script last updated: 2022-07-21

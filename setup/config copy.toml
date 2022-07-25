@@ -1,0 +1,28 @@
+title = "Default Config"
+last_update = 2022-07-09
+
+# Images will get installed in the order that they are listed here
+# Make sure that they are listed in the correct order
+[images.magic]
+url = "https://github.com/rtimothyedwards/magic"
+commit_id = "f7df5e7c86fb47c5fd445c846afddc6fbabad6ae"
+
+[images.skywater-pdk]
+url = "https://github.com/google/skywater-pdk.git"
+commit_id = "defc450c41afecdc5d3713211b685f67038b3865"
+
+[images.open_pdks]
+url = "https://github.com/RTimothyEdwards/open_pdks"
+commit_id = "702caf0cc0f32f59008f3e389b627a66d733c924"
+
+[images.netgen]
+url = "https://github.com/rtimothyedwards/netgen"
+commit_id = "2056b37c95e11ea802f8b06c8948e874a298808a"
+
+[images.ngspice]
+url = "https://git.code.sf.net/p/ngspice/ngspice"
+commit_id = "0faf386d45521f7ed82f621266b3990adc982b50"
+
+[images.xschem]
+url = "https://github.com/StefanSchippers/xschem.git"
+commit_id = "4c75dde1a845a07ad9238ecfcb7ae78052426d1d"

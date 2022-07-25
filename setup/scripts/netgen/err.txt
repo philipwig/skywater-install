@@ -1,0 +1,23 @@
+Cloning into '/home/philip/tools/netgen'...
+Note: switching to '2056b37c95e11ea802f8b06c8948e874a298808a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 2056b37 Yesterday's commit surfaced two errors in series;  this fixes the second one of them, which is a failure to change CurrentTail when an extra (implicit) pin was added to the last component in the current cell, resulting in the failure of Node() to add the new no-connect node, which instead overwrites the pin just created.
+config.status: WARNING:  'defs.mak.in' seems to ignore the --datarootdir setting
+
+File Created: 2022-07-22T03:59:34.881537
+Script last updated: 2022-07-21

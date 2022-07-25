@@ -1,0 +1,189 @@
+Cloning into '/home/philip/tools/ngspice'...
+Note: switching to '0faf386d45521f7ed82f621266b3990adc982b50'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 0faf386d4 We developing towards ngspice-38 The intermediate stage is named 37+
+configure.ac:46: installing './ar-lib'
+configure.ac:42: installing './compile'
+configure.ac:44: installing './config.guess'
+configure.ac:44: installing './config.sub'
+configure.ac:37: installing './install-sh'
+configure.ac:37: installing './missing'
+src/Makefile.am: installing './depcomp'
+configure.ac: installing './ylwrap'
+configure.ac:42: installing './compile'
+configure.ac:37: installing './missing'
+src/Makefile.am: installing './depcomp'
+configure: WARNING: Removing debugging option!
+configure: WARNING: /proc/meminfo: present but cannot be compiled
+configure: WARNING: /proc/meminfo:     check for missing prerequisite headers?
+configure: WARNING: /proc/meminfo: see the Autoconf documentation
+configure: WARNING: /proc/meminfo:     section "Present But Cannot Be Compiled"
+configure: WARNING: /proc/meminfo: proceeding with the compiler's result
+configure: WARNING:     ## --------------------------------------------------------- ##
+configure: WARNING:     ## Report this to http://ngspice.sourceforge.net/bugrep.html ##
+configure: WARNING:     ## --------------------------------------------------------- ##
+string.c: In function ‘itoa10’:
+string.c:1418:18: warning: conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+ 1418 |         s[i++] = n % 10 + '0';   /* get next digit */
+      |                  ^
+misc_time.c: In function ‘seconds’:
+misc_time.c:122:5: warning: ‘ftime’ is deprecated [-Wdeprecated-declarations]
+  122 |     ftime(&timenow);
+      |     ^~~~~
+In file included from ../../src/include/ngspice/ngspice.h:126,
+                 from misc_time.c:9:
+/usr/include/x86_64-linux-gnu/sys/timeb.h:39:12: note: declared here
+   39 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+/home/philip/tools/ngspice/src/frontend/parse-bison.y:34.14-17: warning: POSIX Yacc does not support string literals [-Wyacc]
+   34 | %name-prefix "PP"
+      |              ^~~~
+/home/philip/tools/ngspice/src/frontend/parse-bison.y:34.1-17: warning: POSIX Yacc does not support %name-prefix  [-Wyacc]
+   34 | %name-prefix "PP"
+      | ^~~~~~~~~~~~~~~~~
+/home/philip/tools/ngspice/src/frontend/parse-bison.y:34.1-17: warning: deprecated directive: ‘%name-prefix "PP"’, use ‘%define api.prefix {PP}’ [-Wdeprecated]
+   34 | %name-prefix "PP"
+      | ^~~~~~~~~~~~~~~~~
+      | %define api.prefix {PP}
+/home/philip/tools/ngspice/src/frontend/parse-bison.y:36.1-8: warning: POSIX Yacc does not support %defines [-Wyacc]
+   36 | %defines
+      | ^~~~~~~~
+/home/philip/tools/ngspice/src/frontend/parse-bison.y:40.1-12: warning: POSIX Yacc does not support %pure-parser [-Wyacc]
+   40 | %pure-parser
+      | ^~~~~~~~~~~~
+/home/philip/tools/ngspice/src/frontend/parse-bison.y:40.1-12: warning: deprecated directive: ‘%pure-parser’, use ‘%define api.pure’ [-Wdeprecated]
+   40 | %pure-parser
+      | ^~~~~~~~~~~~
+      | %define api.pure
+/home/philip/tools/ngspice/src/frontend/parse-bison.y:75.1-7: warning: POSIX Yacc does not support %expect [-Wyacc]
+   75 | %expect 2
+      | ^~~~~~~
+/home/philip/tools/ngspice/src/frontend/parse-bison.y:97.1-15: warning: POSIX Yacc does not support %initial-action [-Wyacc]
+   97 | %initial-action      /* initialize yylval */
+      | ^~~~~~~~~~~~~~~
+/home/philip/tools/ngspice/src/frontend/parse-bison.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+com_sysinfo.c: In function ‘get_sysmem’:
+com_sysinfo.c:978:42: warning: unused parameter ‘memall’ [-Wunused-parameter]
+  978 | static int get_sysmem(struct sys_memory *memall)
+      |                       ~~~~~~~~~~~~~~~~~~~^~~~~~
+resource.c: In function ‘init_time’:
+resource.c:89:5: warning: ‘ftime’ is deprecated [-Wdeprecated-declarations]
+   89 |     ftime(&timebegin);
+      |     ^~~~~
+In file included from ../../src/include/ngspice/ngspice.h:126,
+                 from resource.c:14:
+/usr/include/x86_64-linux-gnu/sys/timeb.h:39:12: note: declared here
+   39 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+resource.c: In function ‘printres’:
+resource.c:195:9: warning: ‘ftime’ is deprecated [-Wdeprecated-declarations]
+  195 |         ftime(&timenow);
+      |         ^~~~~
+In file included from ../../src/include/ngspice/ngspice.h:126,
+                 from resource.c:14:
+/usr/include/x86_64-linux-gnu/sys/timeb.h:39:12: note: declared here
+   39 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+resource.c: In function ‘baseaddr’:
+resource.c:589:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  589 |     RETSIGTYPE  (*orig_signal)();
+      |     ^~~~~~~~~~
+resource.c:595:46: warning: unsigned conversion from ‘int’ to ‘long unsigned int’ changes value from ‘-256’ to ‘18446744073709551360’ [-Wsign-conversion]
+  595 |     high = (char *) ((unsigned long) sbrk(0) & ~((1 << LOG2_PAGESIZE) - 1));
+      |                                              ^
+resource.c:619:19: warning: conversion from ‘long int’ to ‘char’ may change value [-Wconversion]
+  619 |             *at = x;
+      |                   ^
+At top level:
+resource.c:582:1: warning: ‘baseaddr’ defined but not used [-Wunused-function]
+  582 | baseaddr(void)
+      | ^~~~~~~~
+/home/philip/tools/ngspice/src/spicelib/parser/inpptree-parser.y:31.14-17: warning: POSIX Yacc does not support string literals [-Wyacc]
+   31 | %name-prefix "PT"
+      |              ^~~~
+/home/philip/tools/ngspice/src/spicelib/parser/inpptree-parser.y:31.1-17: warning: POSIX Yacc does not support %name-prefix  [-Wyacc]
+   31 | %name-prefix "PT"
+      | ^~~~~~~~~~~~~~~~~
+/home/philip/tools/ngspice/src/spicelib/parser/inpptree-parser.y:31.1-17: warning: deprecated directive: ‘%name-prefix "PT"’, use ‘%define api.prefix {PT}’ [-Wdeprecated]
+   31 | %name-prefix "PT"
+      | ^~~~~~~~~~~~~~~~~
+      | %define api.prefix {PT}
+/home/philip/tools/ngspice/src/spicelib/parser/inpptree-parser.y:33.1-8: warning: POSIX Yacc does not support %defines [-Wyacc]
+   33 | %defines
+      | ^~~~~~~~
+/home/philip/tools/ngspice/src/spicelib/parser/inpptree-parser.y:35.1-12: warning: POSIX Yacc does not support %pure-parser [-Wyacc]
+   35 | %pure-parser
+      | ^~~~~~~~~~~~
+/home/philip/tools/ngspice/src/spicelib/parser/inpptree-parser.y:35.1-12: warning: deprecated directive: ‘%pure-parser’, use ‘%define api.pure’ [-Wdeprecated]
+   35 | %pure-parser
+      | ^~~~~~~~~~~~
+      | %define api.pure
+/home/philip/tools/ngspice/src/spicelib/parser/inpptree-parser.y:69.1-15: warning: POSIX Yacc does not support %initial-action [-Wyacc]
+   69 | %initial-action      /* initialize yylval */
+      | ^~~~~~~~~~~~~~~
+/home/philip/tools/ngspice/src/spicelib/parser/inpptree-parser.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+mod_yacc.y: warning: 40 shift/reduce conflicts [-Wconflicts-sr]
+file_buffer.c: In function ‘fb_make_space_at_end’:
+file_buffer.c:485:26: warning: conversion to ‘size_t’ {aka ‘const long unsigned int’} from ‘long int’ may change the sign of the result [-Wsign-conversion]
+  485 |         const size_t n = p_fb->p_data_end - p_src;
+      |                          ^~~~
+file_buffer.c:531:28: warning: conversion to ‘size_t’ {aka ‘long unsigned int’} from ‘long int’ may change the sign of the result [-Wsign-conversion]
+  531 |     return p_fb->p_buf_end - p_fb->p_data_end;
+      |            ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+file_buffer.c: In function ‘fb_return_string’:
+file_buffer.c:692:33: warning: conversion to ‘size_t’ {aka ‘long unsigned int’} from ‘long int’ may change the sign of the result [-Wsign-conversion]
+  692 |     p_fbobj->str_value.n_char = p_fb->p_obj_end - p_data_start;
+      |                                 ^~~~
+pp_lst.c: In function ‘read_modpath’:
+pp_lst.c:474:25: warning: conversion to ‘int’ from ‘unsigned int’ may change the sign of the result [-Wsign-conversion]
+  474 |         free_model_info(n_model_info, p_model_info);
+      |                         ^~~~~~~~~~~~
+pp_lst.c:479:25: warning: conversion to ‘int’ from ‘unsigned int’ may change the sign of the result [-Wsign-conversion]
+  479 |     *p_num_model_info = n_model_info;
+      |                         ^~~~~~~~~~~~
+pp_lst.c: In function ‘read_udnpath’:
+pp_lst.c:651:24: warning: conversion to ‘int’ from ‘unsigned int’ may change the sign of the result [-Wsign-conversion]
+  651 |         free_node_info(n_node_info, p_node_info);
+      |                        ^~~~~~~~~~~
+pp_lst.c:656:24: warning: conversion to ‘int’ from ‘unsigned int’ may change the sign of the result [-Wsign-conversion]
+  656 |     *p_num_node_info = n_node_info;
+      |                        ^~~~~~~~~~~
+pp_lst.c: In function ‘check_uniqueness’:
+pp_lst.c:948:64: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  948 |     const unsigned int n_model = (unsigned int) numSPICEmodels + num_models;
+      |                                                                ^
+pp_lst.c:949:66: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  949 |     const unsigned int n_node = (unsigned int) numUDNidentifiers + num_nodes;
+      |                                                                  ^
+pp_lst.c:997:53: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  997 |             f_have_duplicate |= test_for_duplicates(num_models, p_ks,
+      |                                                     ^~~~~~~~~~
+pp_lst.c: In function ‘read_udn_type_name’:
+pp_lst.c:1591:35: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+ 1591 |                             if (i >= sizeof name) {
+      |                                   ^~
+pp_lst.c:1598:35: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+ 1598 |                             if (i > sizeof name) {
+      |                                   ^
+writ_ifs.c: In function ‘value_to_str’:
+writ_ifs.c:1223:47: warning: conversion to ‘size_t’ {aka ‘long unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+ 1223 |                 void * const p = realloc(str, n_byte_alloc);
+      |                                               ^~~~~~~~~~~~
+
+File Created: 2022-07-22T04:02:21.965795
+Script last updated: 2022-07-21

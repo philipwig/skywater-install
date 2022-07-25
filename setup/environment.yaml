@@ -1,0 +1,15 @@
+name: skywater
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=22.1.2
+  - numpy=1.23.1
+  - matplotlib=3.5.2
+  - ipympl=0.9.1
+  - jupyterlab=3.4.3
+  - jupyter_contrib_nbextensions=0.5.1
+  - toml=0.10.2
+  - pip:
+    - ltspice==1.0.5
+prefix: /home/philip/tools/miniconda3/envs/skywater

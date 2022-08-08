@@ -1,4 +1,5 @@
-**/log.txt
-**/err.txt
+setup/scripts/*/err.txt
+setup/scripts/*/log.txt
+
 .vscode/
 work/

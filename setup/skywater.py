@@ -47,7 +47,7 @@ def build(args):
 
     for image in config_images.keys():
         # get current image install script path
-        image_path = "/remote/setup/scripts/" + image
+        image_path = os.path.abspath(os.path.dirname(__file__)) + "/scripts/" + image
 
         # increment current image number
         image_count += 1

@@ -29,7 +29,8 @@ sudo apt-get install -y --no-install-recommends \
 	bison \
 	libxpm4 \
 	libxpm-dev \
-	gawk
+	gawk \
+	xterm
 
 ##################################################
 # Download, compile and install xschem

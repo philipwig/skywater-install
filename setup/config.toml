@@ -1,17 +1,17 @@
 title = "Default Config"
-last_update = 2022-07-31
+last_update = 2022-09-02
 
 [images.magic]
 url = "https://github.com/rtimothyedwards/magic"
-commit_id = "f7df5e7c86fb47c5fd445c846afddc6fbabad6ae"
+commit_id = "4afc476d928b138a2d7bd709b52d145cce781394"
 
 [images.skywater-pdk]
 url = "https://github.com/google/skywater-pdk.git"
-commit_id = "60fe154d3b573493c78daae454949ff96547cafe"
+commit_id = "ea95157faad3a3f5c560aaec3f1841ee5a2aa2db"
 
 [images.open_pdks]
 url = "https://github.com/RTimothyEdwards/open_pdks"
-commit_id = "fb6f374beff316f9a8e0b5585facfc18008c0f2d"
+commit_id = "b8fdad80ab285294461a708cf6a47629f3bbeaff"
 
 [images.netgen]
 url = "https://github.com/rtimothyedwards/netgen"
@@ -23,4 +23,4 @@ commit_id = "0faf386d45521f7ed82f621266b3990adc982b50"
 
 [images.xschem]
 url = "https://github.com/StefanSchippers/xschem.git"
-commit_id = "9e888b8b44e3beb117d779fcc48fa4e1dcfed5a4"
+commit_id = "b7bf3518019a63395abc33f78a580737f6a50db7"

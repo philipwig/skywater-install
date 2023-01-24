@@ -1,26 +1,26 @@
 title = "Default Config"
-last_update = 2022-09-02
+last_update = 2023-01-23
 
 [images.magic]
 url = "https://github.com/rtimothyedwards/magic"
-commit_id = "4afc476d928b138a2d7bd709b52d145cce781394"
+commit_id = "8d08cb2f2f33c79bea478a79543721d476554c78"
 
 [images.skywater-pdk]
 url = "https://github.com/google/skywater-pdk.git"
-commit_id = "ea95157faad3a3f5c560aaec3f1841ee5a2aa2db"
+commit_id = "49d3c73c2cd8ea42cdae5056440baef0f72e7e42"
 
 [images.open_pdks]
 url = "https://github.com/RTimothyEdwards/open_pdks"
-commit_id = "b8fdad80ab285294461a708cf6a47629f3bbeaff"
+commit_id = "bbcd329bdc1c7c1146bac55182525d3ad2f96e05"
 
 [images.netgen]
 url = "https://github.com/rtimothyedwards/netgen"
-commit_id = "2056b37c95e11ea802f8b06c8948e874a298808a"
+commit_id = "28a29504390d53cd3748ff2636be112ef299da0b"
 
 [images.ngspice]
 url = "https://git.code.sf.net/p/ngspice/ngspice"
-commit_id = "0faf386d45521f7ed82f621266b3990adc982b50"
+commit_id = "d0c35512ab9920325724a3670fbe3b2bd6ec3775"
 
 [images.xschem]
 url = "https://github.com/StefanSchippers/xschem.git"
-commit_id = "b7bf3518019a63395abc33f78a580737f6a50db7"
+commit_id = "23378b870835bff0bd6682da0762c3f95c0cce0c"

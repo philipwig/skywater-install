@@ -39,6 +39,7 @@ sudo apt-get install -y --no-install-recommends \
 git clone $2 $1/ngspice
 cd $1/ngspice
 
+git fetch
 git checkout $3
 
 # Run twice because sometimes it doesn't work

@@ -29,6 +29,8 @@ sudo apt-get install -y --no-install-recommends \
 
 git clone $2 $1/magic
 cd $1/magic
+
+git fetch
 git checkout $3
 
 ./configure

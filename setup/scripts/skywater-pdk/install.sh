@@ -14,6 +14,8 @@ git clone $2 $1/skywater-pdk
 
 cd $1/skywater-pdk
 
+git fetch
+
 git checkout main && \
     git checkout -qf $3
     git submodule update --init libraries/sky130_fd_sc_hd/latest && \

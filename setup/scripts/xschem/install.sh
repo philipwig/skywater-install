@@ -38,6 +38,8 @@ sudo apt-get install -y --no-install-recommends \
 
 git clone $2 $1/xschem
 cd $1/xschem
+
+git fetch
 git checkout $3
 
 ./configure

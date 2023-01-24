@@ -16,13 +16,12 @@
 cd $PDK_ROOT 
 git clone $2 $1/open_pdks
 cd $1/open_pdks
+git fetch
 git checkout -qf $3
 
 ./configure --enable-sky130-pdk=$1/skywater-pdk  \
-            --enable-alpha-sky130 \
-            --enable-xschem-sky130 \
-            --enable-sram-sky130 \
-            --with-sky130-variants=all    
+            --with-sky130-variants=all
+
 
 make -j$(nproc)
 

@@ -13,6 +13,8 @@
 git clone $2 $1/netgen
 
 cd $1/netgen
+
+git fetch
 git checkout $3
 
 ./configure
